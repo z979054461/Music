@@ -11,7 +11,7 @@ heroImageStyle: {
   borderRadius: '1rem',
 }
 actionText: About
-actionLink: /blogs
+actionLink: /
 features:
 - title: 过去
   details: 写着无聊无趣的业务代码，浑浑噩噩度日。
