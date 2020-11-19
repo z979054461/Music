@@ -25,6 +25,8 @@ export default {
                     "//player.bilibili.com/player.html?aid=927761611&bvid=BV1kK4y1Z7Gn&cid=257574860&page=1",
                 我还想她:
                     "//player.bilibili.com/player.html?aid=372801761&bvid=BV11Z4y137Qh&cid=257573945&page=1",
+                恋爱ing:
+                    "//player.bilibili.com/player.html?aid=415280491&bvid=BV1VV411a7rq&cid=257594329&page=1",
             }[this.name || this.$title];
         },
     },
