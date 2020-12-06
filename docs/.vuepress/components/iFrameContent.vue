@@ -13,11 +13,12 @@
 
 <script>
 import iframeSrc from '../data/iframeSrc.json'
+console.log(iframeSrc)
 export default {
     props: ["name"],
     computed: {
         src() {
-            return iframeSrc[this.name || this.$title];
+            return iframeSrc[this.name || this.$title.split(' | ')[0]];
         },
     },
 };

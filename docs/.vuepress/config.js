@@ -4,7 +4,8 @@ const themeConfig = require('./config/themeConfig/')
 module.exports = {
   //指定 vuepress build 的输出目录。如果传入的是相对路径，则会基于 process.cwd() 进行解析
   // dest: '.vuepress/dist',
-  // base: '/JSLearning/',
+  // base: '/JSLearning/',、
+  title: '夕月的音乐小站',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
